@@ -11,3 +11,6 @@
 - week 7: Responsive
 - week 8: responsive
 - week 9: winkel wagen als tijd goed zit
+
+- Wireframes: https://miro.com/app/board/uXjVMRFp2ko=/
+- Trello: https://trello.com/b/wGDz8ajn/daniel-bo4
