@@ -26,5 +26,35 @@ html {
 
 .land-img {
     width: 100%;
-    height: 120vh;
+    height: 90vh;
+    object-fit: cover;
+}
+
+.titel {
+    position: absolute;
+    color: #f000cc;
+    justify-content: left;
+    top: 20rem;
+    font-family: 'Prompt', sans-serif;
+    font-size: 4rem;
+}
+
+.titel--onder {
+    position: absolute;
+    color: #f000cc;
+    justify-content: left;
+    top: 25rem;
+    font-family: 'Prompt', sans-serif;
+    font-size: 4rem;
+}
+
+.button {
+    position: absolute;
+    justify-content: center;
+    top: 40rem;
+}
+
+.move {
+    display: flex;
+    justify-content: center;
 }
