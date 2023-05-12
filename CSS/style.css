@@ -74,7 +74,7 @@ main {
     list-style: none;
     background: white;
     border-radius: 1rem;
-    box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1rem 1rem 0 #a492b2;
 }
 
 .card1 {
@@ -115,24 +115,168 @@ main {
 }
 
 .card3 {
-    grid-row: 1/10;
+    grid-row: 1/12;
     grid-column: 2/5;
 }
 
+
 .card4 {
-    grid-row: 1/10;
+    grid-row: 1/12;
     grid-column: 6/9;
 }
 
 .card5 {
-    grid-row: 1/10;
+    grid-row: 1/12;
     grid-column: 10/13;
 }
 
+
 .card6 {
-    grid-row: 1/10;
+    grid-row: 1/12;
     grid-column: 14/17;
 }
+
+.card3:hover,
+.card4:hover,
+.card5:hover,
+.card6:hover {
+    transform: scale(1.1);
+}
+
+.artikel--saber-info {
+    font-family: 'Prompt', sans-serif;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.review {
+    display: flex;
+    justify-content: center;
+}
+
+.price {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+
+.lightsaber {
+    object-fit: contain;
+    width: 100%;
+    height: 75%;
+}
+
+.lightsaber-groen {
+    object-fit: contain;
+    width: 100%;
+    height: 55%;
+    padding-bottom: 6rem;
+    padding-top: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -169,22 +313,49 @@ main {
     .tekst--card2 {
         font-size: 2.6rem;
     }
+
+    .price {
+        font-size: 2rem;
+    }
+
+    .artikel--saber-info {
+        font-size: 2rem;
+    }
+
+    .lightsaber-groen {
+        padding-bottom: 4rem;
+    }
 }
 
 @media screen and (max-width: 76.5rem) {
     .tekst--card2 {
         font-size: 2rem;
     }
+
+    .price {
+        font-size: 1.5rem;
+    }
+
+    .artikel--saber-info {
+        font-size: 1.5rem;
+    }
+
+    .lightsaber-groen {
+        padding-bottom: 3rem;
+    }
+
 }
 
 @media screen and (max-width: 66.5rem) {
     .tekst--card2 {
         font-size: 2rem;
     }
+
 }
 
 @media screen and (max-width: 60rem) {
     .tekst--card2 {
         font-size: 2rem;
     }
+
 }
