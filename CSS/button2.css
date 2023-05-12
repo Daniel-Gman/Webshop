@@ -1,49 +1,50 @@
-a {
-    width: 250px;
-    height: 50px;
-    line-height: 50px;
-    font-weight: bold;
+html {
+    font-size: 62.5%;
+}
+
+section {
+    display: block;
+    width: 22rem;
+    height: 6rem;
+    line-height: 4rem;
+    font-size: 1.8rem;
+    font-family: sans-serif;
     text-decoration: none;
-    background: #333;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
     text-align: center;
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    border: 3px solid #333;
+    position: relative;
     transition: all .35s;
-    font-family: 'Prompt', sans-serif;
 }
 
-.icon {
-    width: 50px;
-    height: 50px;
-    border: 3px solid transparent;
+section span {
+    position: relative;
+    z-index: 2;
+}
+
+section:after {
     position: absolute;
-    transform: rotate(45deg);
-    right: 0;
+    content: "";
     top: 0;
-    z-index: -1;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #f000cc;
     transition: all .35s;
 }
 
-.icon svg {
-    width: 30px;
-    position: absolute;
-    top: calc(50% - 15px);
-    left: calc(50% - 15px);
-    transform: rotate(-45deg);
-    fill: #f000cc;
-    transition: all .35s;
+section:hover {
+    color: #fff;
 }
 
-a:hover {
-    width: 200px;
-    border: 3px solid #f000cc;
-    background: transparent;
-    color: #f000cc;
+section:hover:after {
+    width: 100%;
 }
 
-a:hover+.icon {
-    border: 3px solid #f000cc;
-    right: -25%;
+span {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    margin-top: 1rem;
 }

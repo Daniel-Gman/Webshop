@@ -78,8 +78,12 @@ main {
 }
 
 .card1 {
-    grid-row: 2/16;
+    grid-row: 2/15;
     grid-column: 2/10;
+    background-image: url(../SRC/Lightsaber.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit: cover;
 }
 
 .card2 {
@@ -89,7 +93,7 @@ main {
 }
 
 .h1--card2 {
-    font-size: 6rem;
+    font-size: 4rem;
     font-family: 'Prompt', sans-serif;
 }
 
@@ -99,4 +103,88 @@ main {
     font-weight: 300;
     padding-top: 2rem;
     padding-bottom: 2rem;
+}
+
+.card--mid-page {
+    height: 89vh;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(17, 2fr);
+    grid-template-rows: repeat(16, 2fr);
+    gap: 2rem;
+}
+
+.card3 {
+    grid-row: 1/10;
+    grid-column: 2/5;
+}
+
+.card4 {
+    grid-row: 1/10;
+    grid-column: 6/9;
+}
+
+.card5 {
+    grid-row: 1/10;
+    grid-column: 10/13;
+}
+
+.card6 {
+    grid-row: 1/10;
+    grid-column: 14/17;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 92.5rem) {
+    .tekst--card2 {
+        font-size: 3.5rem;
+    }
+}
+
+
+@media screen and (max-width: 87.5rem) {
+    .tekst--card2 {
+        font-size: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 80.5rem) {
+    .tekst--card2 {
+        font-size: 2.6rem;
+    }
+}
+
+@media screen and (max-width: 76.5rem) {
+    .tekst--card2 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 66.5rem) {
+    .tekst--card2 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 60rem) {
+    .tekst--card2 {
+        font-size: 2rem;
+    }
 }
