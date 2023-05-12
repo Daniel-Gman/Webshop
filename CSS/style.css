@@ -7,6 +7,10 @@ html {
     font-size: 62.5%;
 }
 
+main {
+    height: 200rem;
+}
+
 .header {
     background-color: #a492b2;
     height: 5rem;
@@ -33,7 +37,6 @@ html {
 .titel {
     position: absolute;
     color: #f000cc;
-    justify-content: left;
     top: 20rem;
     font-family: 'Prompt', sans-serif;
     font-size: 4rem;
@@ -42,7 +45,6 @@ html {
 .titel--onder {
     position: absolute;
     color: #f000cc;
-    justify-content: left;
     top: 25rem;
     font-family: 'Prompt', sans-serif;
     font-size: 4rem;
@@ -58,3 +60,26 @@ html {
     display: flex;
     justify-content: center;
 }
+
+.card--top-page {
+    height: 89vh;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(16, 2fr);
+    grid-template-rows: repeat(16, 2fr);
+    gap: 2rem;
+}
+
+.card {
+    list-style: none;
+    background: white;
+    border-radius: 1rem;
+    box-shadow: 0 2rem 5rem 0 rgba(0, 0, 0, 0.2);
+}
+
+.card1 {
+    grid-row: 2/16;
+    grid-column: 2/8;
+}
+
+.card2 {}
