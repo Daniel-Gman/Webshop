@@ -74,12 +74,29 @@ main {
     list-style: none;
     background: white;
     border-radius: 1rem;
-    box-shadow: 0 2rem 5rem 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.2);
 }
 
 .card1 {
     grid-row: 2/16;
-    grid-column: 2/8;
+    grid-column: 2/10;
 }
 
-.card2 {}
+.card2 {
+    grid-row: 2/16;
+    grid-column: 10/16;
+    box-shadow: none;
+}
+
+.h1--card2 {
+    font-size: 6rem;
+    font-family: 'Prompt', sans-serif;
+}
+
+.tekst--card2 {
+    position: relative;
+    font-size: 4rem;
+    font-weight: 300;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
