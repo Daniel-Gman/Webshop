@@ -116,7 +116,6 @@ body {
 
 .card--layout2 {
     list-style: none;
-    background: black;
     border-radius: 50%;
 }
 
@@ -282,6 +281,7 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 2.8rem;
+    color: #f000cc;
 }
 
 .featurs-tekst {
@@ -304,6 +304,14 @@ body {
 
 .icons {
     object-fit: fill;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.icons-pallet {
+    object-fit: contain;
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
