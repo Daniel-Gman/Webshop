@@ -8,7 +8,7 @@ html {
 }
 
 main {
-    height: 200rem;
+    height: 300rem;
 }
 
 body {
@@ -61,7 +61,7 @@ body {
 
 .land-img {
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     object-fit: cover;
 }
 
@@ -108,6 +108,18 @@ body {
     box-shadow: 0 1rem 1rem 0 #a492b2;
 }
 
+.card--invisible {
+    list-style: none;
+    background: transparent;
+    border-radius: 1rem;
+}
+
+.card--layout2 {
+    list-style: none;
+    background: #f000cc;
+    border-radius: 50%;
+}
+
 .card1 {
     grid-row: 2/15;
     grid-column: 2/10;
@@ -143,7 +155,7 @@ body {
     display: grid;
     width: 100%;
     grid-template-columns: repeat(17, 2fr);
-    grid-template-rows: repeat(16, 2fr);
+    grid-template-rows: repeat(15, 2fr);
     gap: 2rem;
 }
 
@@ -194,6 +206,7 @@ body {
     font-weight: bolder;
     display: flex;
     justify-content: center;
+    color: #e6007e;
 }
 
 .lightsaber {
@@ -210,15 +223,92 @@ body {
     padding-top: 3rem;
 }
 
+.lightsaber--press {
+    color: black;
+    text-decoration: none;
+}
 
+.card--second--mid-page {
+    height: 165vh;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(17, 2fr);
+    grid-template-rows: repeat(23, 3fr);
+    gap: 2rem;
+}
 
+.card--circle1 {
+    grid-row: 1/10;
+    grid-column: 3/8;
+}
 
+.card--circle2 {
+    grid-row: 1/10;
+    grid-column: 11/16;
+}
 
+.card--circle3 {
+    grid-row: 16/26;
+    grid-column: 3/8;
+}
 
+.card--circle4 {
+    grid-row: 16/26;
+    grid-column: 11/16;
+}
 
+.circle--info {
+    grid-row: 11/13;
+    grid-column: 3/8;
+}
 
+.circle--info2 {
+    grid-row: 11/13;
+    grid-column: 11/16;
+}
 
+.circle--info3 {
+    grid-row: 27/29;
+    grid-column: 3/8;
+}
 
+.circle--info4 {
+    grid-row: 27/29;
+    grid-column: 11/16;
+}
+
+.featurs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.8rem;
+}
+
+.featurs-tekst {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+}
+
+.featurs-title {
+    display: flex;
+    justify-content: center;
+    font-size: 2.6rem;
+}
+
+.featurs-tekst-bonus {
+    display: flex;
+    justify-content: center;
+    font-size: 2.2rem;
+}
+
+.icons {
+    object-fit: fill;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
 
 
 
