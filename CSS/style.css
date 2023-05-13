@@ -11,6 +11,10 @@ main {
     height: 200rem;
 }
 
+body {
+    scroll-behavior: smooth;
+}
+
 .header {
     background-color: #a492b2;
     height: 5rem;
@@ -107,10 +111,12 @@ main {
 .card1 {
     grid-row: 2/15;
     grid-column: 2/10;
-    background-image: url(../SRC/Lightsaber.webp);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+}
+
+.lightsaber-card1 {
     object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
 .card2 {
