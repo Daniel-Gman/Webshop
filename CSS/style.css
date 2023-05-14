@@ -426,7 +426,6 @@ body {
 
 
 
-
 @media screen and (max-width: 92.5rem) {
     .tekst--card2 {
         font-size: 3.5rem;
@@ -489,4 +488,12 @@ body {
         font-size: 2rem;
     }
 
+}
+
+@media screen and (max-width: 55rem) {}
+
+@media screen and (max-width: 45rem) {
+    body {
+        background-color: red;
+    }
 }
