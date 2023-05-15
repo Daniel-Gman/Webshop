@@ -158,6 +158,8 @@ body {
     gap: 2rem;
 }
 
+
+
 .card3 {
     grid-row: 1/12;
     grid-column: 2/5;
@@ -228,6 +230,15 @@ body {
 }
 
 .card--second--mid-page {
+    height: 165vh;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(17, 2fr);
+    grid-template-rows: repeat(23, 3fr);
+    gap: 2rem;
+}
+
+.card--third--mid-page {
     height: 165vh;
     display: grid;
     width: 100%;
@@ -318,7 +329,10 @@ body {
     border-radius: 50%;
 }
 
-
+.card7 {
+    grid-row: 4/14;
+    grid-column: 8/17;
+}
 
 
 
