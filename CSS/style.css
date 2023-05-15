@@ -8,7 +8,7 @@ html {
 }
 
 main {
-    height: 300rem;
+    height: 500rem;
 }
 
 body {
@@ -20,7 +20,7 @@ body {
     height: 5rem;
     width: 100%;
     position: fixed;
-    z-index: 9999;
+    z-index: 10;
     display: flex;
     justify-content: space-between;
 }
@@ -311,7 +311,7 @@ body {
 }
 
 .icons-pallet {
-    object-fit: contain;
+    object-fit: fill;
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
@@ -437,6 +437,8 @@ body {
     .tekst--card2 {
         font-size: 3.5rem;
     }
+
+
 }
 
 @media screen and (max-width: 80.5rem) {
@@ -455,6 +457,8 @@ body {
     .lightsaber-groen {
         padding-bottom: 4rem;
     }
+
+
 }
 
 @media screen and (max-width: 76.5rem) {
@@ -472,6 +476,52 @@ body {
 
     .lightsaber-groen {
         padding-bottom: 3rem;
+    }
+
+    .card--circle1 {
+        grid-row: 3/10;
+        grid-column: 4/7;
+    }
+
+    .card--circle2 {
+        grid-row: 3/10;
+        grid-column: 12/15;
+    }
+
+    .card--circle3 {
+        grid-row: 19/26;
+        grid-column: 4/7;
+    }
+
+    .card--circle4 {
+        grid-row: 19/26;
+        grid-column: 12/15;
+    }
+
+    .featurs {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        color: #f000cc;
+    }
+
+    .featurs-tekst {
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem;
+    }
+
+    .featurs-title {
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem;
+    }
+
+    .featurs-tekst-bonus {
+        display: flex;
+        justify-content: center;
+        font-size: 1.4rem;
     }
 
 }
