@@ -608,6 +608,11 @@ body {
 }
 
 @media screen and (max-width: 60rem) {
+
+    .h1--card2 {
+        font-size: 2.5rem;
+    }
+
     .tekst--card2 {
         font-size: 2rem;
     }
@@ -619,6 +624,44 @@ body {
     .artikel--overtuiging-tekst {
         font-size: 2rem;
     }
+
+    .card--mid-page {
+        height: 200vh;
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(17, 2fr);
+        grid-template-rows: repeat(20, 2fr);
+        gap: 2rem;
+    }
+
+    .card3 {
+        grid-row: 1/11;
+        grid-column: 2/9;
+    }
+
+    .card4 {
+        grid-row: 1/11;
+        grid-column: 10/17;
+    }
+
+    .card5 {
+        grid-row: 11/21;
+        grid-column: 2/9;
+    }
+
+    .card6 {
+        grid-row: 11/21;
+        grid-column: 10/17;
+    }
+
+    .artikel--overtuiging-titel {
+        font-size: 1.5rem;
+    }
+
+    .artikel--overtuiging-tekst {
+        font-size: 1.5rem;
+    }
+
 
 }
 
