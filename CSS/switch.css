@@ -1,3 +1,7 @@
+html {
+    font-size: 62.5%;
+}
+
 input[type=checkbox] {
     height: 0;
     width: 0;
@@ -6,38 +10,38 @@ input[type=checkbox] {
 
 label {
     cursor: pointer;
-    text-indent: -9999px;
-    width: 200px;
-    height: 100px;
-    background: grey;
+    text-indent: -999rem;
+    width: 20rem;
+    height: 10rem;
+    background: #aa3b79;
     display: block;
-    border-radius: 100px;
+    border-radius: 10rem;
     position: relative;
 }
 
 label:after {
     content: '';
     position: absolute;
-    top: 5px;
-    left: 5px;
-    width: 90px;
-    height: 90px;
+    top: 0.5rem;
+    left: 0.5rem;
+    width: 9rem;
+    height: 9rem;
     background: #fff;
-    border-radius: 90px;
+    border-radius: 9rem;
     transition: 0.3s;
 }
 
 input:checked+label {
-    background: #bada55;
+    background: rgb(43, 43, 43);
 }
 
 input:checked+label:after {
-    left: calc(100% - 5px);
+    left: calc(100% - 0.5rem);
     transform: translateX(-100%);
 }
 
 label:active:after {
-    width: 130px;
+    width: 13rem;
 }
 
 .center {
