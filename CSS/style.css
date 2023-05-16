@@ -345,16 +345,6 @@ body {
     grid-column: 12/16;
 }
 
-.card10 {
-    grid-row: 2/18;
-    grid-column: 1/22;
-    background-image: linear-gradient(#a492b2, pink);
-}
-
-.card11 {
-    grid-row: 3/17;
-    grid-column: 1/22;
-}
 
 .artikel--overtuiging-titel {
     font-size: 3rem;
@@ -477,6 +467,8 @@ body {
 
 
 
+
+
 @media screen and (max-width: 92.5rem) {
     .tekst--card2 {
         font-size: 3.5rem;
@@ -487,6 +479,14 @@ body {
 @media screen and (max-width: 87.5rem) {
     .tekst--card2 {
         font-size: 3.5rem;
+    }
+
+    .artikel--overtuiging-titel {
+        font-size: 2rem;
+    }
+
+    .artikel--overtuiging-tekst {
+        font-size: 2rem;
     }
 
 
@@ -507,6 +507,14 @@ body {
 
     .lightsaber-groen {
         padding-bottom: 4rem;
+    }
+
+    .artikel--overtuiging-titel {
+        font-size: 2rem;
+    }
+
+    .artikel--overtuiging-tekst {
+        font-size: 2rem;
     }
 
 
@@ -575,6 +583,14 @@ body {
         font-size: 1.4rem;
     }
 
+    .artikel--overtuiging-titel {
+        font-size: 2rem;
+    }
+
+    .artikel--overtuiging-tekst {
+        font-size: 2rem;
+    }
+
 }
 
 @media screen and (max-width: 66.5rem) {
@@ -582,10 +598,25 @@ body {
         font-size: 2rem;
     }
 
+    .artikel--overtuiging-titel {
+        font-size: 1.7rem;
+    }
+
+    .artikel--overtuiging-tekst {
+        font-size: 1.7rem;
+    }
 }
 
 @media screen and (max-width: 60rem) {
     .tekst--card2 {
+        font-size: 2rem;
+    }
+
+    .artikel--overtuiging-titel {
+        font-size: 2rem;
+    }
+
+    .artikel--overtuiging-tekst {
         font-size: 2rem;
     }
 
