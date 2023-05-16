@@ -6,17 +6,35 @@
 }
 
 
-.image-slider>div {
+.image-slider > div {
     position: absolute;
     overflow: hidden;
-    resize: vertical;
+    display: inline-block;
+}
+
+.image-slider > div::before{
+    content: "";
+    width: 100%;
+    height: 78%;
+    background: rgba(255, 255, 255, 1);
+    z-index: 1;
+    position: absolute;
+    animation-name: saber-slider;
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.1, 0.4, 0.735, 1);
+}
+
+@keyframes saber-slider {
+    0%{
+        height: 78%;
+    }
+    100%{
+        height: 0;
+    }
 }
 
 .saber {
-    -moz-transform: scaleY(-1);
-    -o-transform: scaleY(-1);
-    -webkit-transform: scaleY(-1);
-    transform: scaleY(-1);
-    filter: FlipV;
-    -ms-filter: "FlipV";
+
+    
 }
