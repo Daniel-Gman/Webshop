@@ -1,12 +1,19 @@
-var handleClick = false;
-var myDiv = document.getElementById("switch");
+let handleClick = false;
+let myDiv = document.getElementById("switch");
+let animationDiv = document.getElementsByClassName("animation-saber")
+console.log(animationDiv)
+
+
 
 myDiv.addEventListener("click", function () {
     if (handleClick == false) {
-        console.log("uit");
+        animationDiv.style.animationName = ""
         handleClick = true;
+
     } else if (handleClick == true) {
         console.log("aan");
-        handleClick = false;
+        animationDiv.style.animationName = "saber-slider"
     }
 });
+
+
