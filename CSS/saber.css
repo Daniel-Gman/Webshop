@@ -18,7 +18,7 @@
     z-index: 1;
     position: absolute;
     animation-name: "";
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-fill-mode: forwards;
     animation-timing-function: cubic-bezier(0.2, 0.4, 0.735, 1);
     animation-direction: normal;
@@ -36,6 +36,7 @@
         height: 0;
     }
 }
+
 @keyframes saber-slider-rev {
     0% {
         height: 0;

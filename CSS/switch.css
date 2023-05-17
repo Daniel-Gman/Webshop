@@ -13,7 +13,7 @@ label {
     text-indent: -999rem;
     width: 20rem;
     height: 10rem;
-    background: #aa3b79;
+    background: rgb(43, 43, 43);
     display: block;
     border-radius: 10rem;
     position: relative;
@@ -32,7 +32,7 @@ label:after {
 }
 
 input:checked+label {
-    background: rgb(43, 43, 43);
+    background: #aa3b79;
 }
 
 input:checked+label:after {
