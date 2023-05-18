@@ -12,7 +12,7 @@ myDiv.addEventListener("click", function () {
         for (let i = 0; i < animationDiv.length; i++) {
             animationDiv[i].style.animationName = "saber-slider"
 
-            var audio = new Audio('JS/sounds/Star-wars-lightsaber-sound-effects.wav');
+            var audio = new Audio('sounds/ignite.wav');
             audio.loop = false;
             audio.play();
         }
@@ -21,7 +21,7 @@ myDiv.addEventListener("click", function () {
         for (let i = 0; i < animationDiv.length; i++) {
             animationDiv[i].style.animationName = "saber-slider-rev"
 
-            var audio = new Audio('JS/sounds/lightsaber2-105441.mp3');
+            var audio = new Audio('sounds/retreave.wav');
             audio.loop = false;
             audio.play();
         }
