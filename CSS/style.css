@@ -9,7 +9,7 @@ html {
 }
 
 main {
-    height: 500rem;
+    height: 460rem;
     background: white;
 }
 
@@ -108,6 +108,13 @@ body {
     background: white;
     border-radius: 1rem;
     box-shadow: 0 1rem 1rem 0 #a492b2;
+}
+
+.card-2 {
+    list-style: none;
+    background: white;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 0.5rem 0 rgb(163, 163, 163);
 }
 
 .card--invisible {
@@ -241,11 +248,11 @@ body {
 }
 
 .card--third--mid-page {
-    height: 165vh;
+    height: 150vh;
     display: grid;
     width: 100%;
     grid-template-columns: repeat(18, 2fr);
-    grid-template-rows: repeat(23, 3fr);
+    grid-template-rows: repeat(23);
     gap: 2rem;
 }
 
@@ -364,107 +371,80 @@ body {
     align-items: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.card--bottem-page {
+    height: 100vh;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(17, 2fr);
+    grid-template-rows: repeat(15, 2fr);
+    gap: 2rem;
+}
+
+.review--images {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.card--bottem-1 {
+    grid-row: 1/12;
+    grid-column: 2/7;
+    background-color: #a492b2;
+}
+
+.yoda {
+    border-radius: 50%;
+    width: 25rem;
+    height: 25rem;
+}
+
+.yoda--titel {
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.yoda--stars {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.yoda--review {
+    display: flex;
+    justify-content: center;
+    font-size: 2.3rem;
+    color: white;
+}
+
+.card--bottem-2 {
+    grid-row: 1/12;
+    grid-column: 7/12;
+    background-color: #a492b2;
+}
+
+.card--bottem-3 {
+    grid-row: 1/12;
+    grid-column: 12/17;
+    background-color: #a492b2;
+}
+
+.reviews {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3rem;
+    font-size: 5rem;
+    font-family: 'Prompt', sans-serif;
+}
+
+footer {
+    background-color: #a492b2;
+    height: 10rem;
+}
 
 
 
@@ -473,6 +453,12 @@ body {
 @media screen and (max-width: 92.5rem) {
     .tekst--card2 {
         font-size: 3.5rem;
+    }
+
+    .yoda {
+        border-radius: 50%;
+        width: 20rem;
+        height: 20rem;
     }
 }
 
@@ -490,6 +476,11 @@ body {
         font-size: 2rem;
     }
 
+    .yoda {
+        border-radius: 50%;
+        width: 15rem;
+        height: 15rem;
+    }
 
 }
 
@@ -518,6 +509,11 @@ body {
         font-size: 2rem;
     }
 
+    .yoda {
+        border-radius: 50%;
+        width: 15rem;
+        height: 15rem;
+    }
 
 }
 
@@ -592,6 +588,34 @@ body {
         font-size: 2rem;
     }
 
+    .yoda {
+        border-radius: 50%;
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .yoda--review {
+        display: flex;
+        justify-content: center;
+        font-size: 1.8rem;
+        color: white;
+    }
+
+    .yoda--titel {
+        font-size: 3.2rem;
+        display: flex;
+        justify-content: center;
+        color: white;
+        margin-bottom: 1rem;
+    }
+
+    .yoda--stars {
+        font-size: 3rem;
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
 }
 
 @media screen and (max-width: 66.5rem) {
@@ -605,6 +629,34 @@ body {
 
     .artikel--overtuiging-tekst {
         font-size: 1.7rem;
+    }
+
+    .yoda {
+        border-radius: 50%;
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .yoda--review {
+        display: flex;
+        justify-content: center;
+        font-size: 1.3rem;
+        color: white;
+    }
+
+    .yoda--titel {
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+        color: white;
+        margin-bottom: 1rem;
+    }
+
+    .yoda--stars {
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
     }
 }
 
@@ -664,7 +716,37 @@ body {
     }
 
 
+    .yoda {
+        border-radius: 50%;
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .yoda--review {
+        display: flex;
+        justify-content: center;
+        font-size: 1.3rem;
+        color: white;
+    }
+
+    .yoda--titel {
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+        color: white;
+        margin-bottom: 1rem;
+    }
+
+    .yoda--stars {
+        font-size: 1.8rem;
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
 }
+
+
 
 @media screen and (max-width: 55rem) {}
 
