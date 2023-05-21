@@ -9,7 +9,7 @@ html {
 }
 
 main {
-    height: 460rem;
+    height: 460vh;
     background: white;
 }
 
@@ -411,7 +411,7 @@ body {
     font-size: 3rem;
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
+    align-items: flex-end;
 }
 
 .yoda--review {
@@ -443,11 +443,23 @@ body {
 
 footer {
     background-color: #a492b2;
-    height: 10rem;
+    height: 12rem;
 }
 
+.footer {
+    padding-top: 2rem;
+}
 
+.tag--footer {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
 
+a {
+    text-decoration: none;
+    color: white;
+}
 
 
 @media screen and (max-width: 92.5rem) {
