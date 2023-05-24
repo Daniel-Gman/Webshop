@@ -47,18 +47,50 @@
     }
 }
 
-@media screen and (max-width: 92.5rem) {}
+@media screen and (max-width: 92.5rem) {
+    .animation-saber {
+        width: 205%;
+    }
+}
 
-@media screen and (max-width: 87.5rem) {}
+@media screen and (max-width: 87.5rem) {
+    .animation-saber {
+        width: 205%;
+    }
+}
 
-@media screen and (max-width: 80.5rem) {}
+@media screen and (max-width: 80.5rem) {
+    .animation-saber {
+        width: 205%;
+    }
+}
 
-@media screen and (max-width: 76.5rem) {}
+@media screen and (max-width: 76.5rem) {
+    .animation-saber {
+        width: 205%;
+    }
+}
 
-@media screen and (max-width: 66.5rem) {}
+@media screen and (max-width: 66.5rem) {
+    .animation-saber {
+        width: 205%;
+    }
+}
 
-@media screen and (max-width: 60rem) {}
+@media screen and (max-width: 60rem) {
+    .animation-saber {
+        width: 205%;
+    }
+}
 
-@media screen and (max-width: 55rem) {}
+@media screen and (max-width: 55rem) {
+    .animation-saber {
+        width: 255%;
+    }
+}
 
-@media screen and (max-width: 45rem) {}
+@media screen and (max-width: 45rem) {
+    .animation-saber {
+        width: 275%;
+    }
+}

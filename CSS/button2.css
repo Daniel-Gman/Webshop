@@ -52,3 +52,55 @@ span {
 .button2 {
     text-decoration: none;
 }
+
+@media screen and (max-width: 92.5rem) {
+    section {
+        width: 22rem;
+    }
+}
+
+@media screen and (max-width: 87.5rem) {
+    section {
+        width: 22rem;
+    }
+}
+
+@media screen and (max-width: 80.5rem) {
+    section {
+        width: 22rem;
+    }
+}
+
+@media screen and (max-width: 76.5rem) {
+    section {
+        width: 22rem;
+    }
+}
+
+@media screen and (max-width: 66.5rem) {
+    section {
+        width: 22rem;
+    }
+}
+
+@media screen and (max-width: 60rem) {
+    section {
+        width: 18rem;
+    }
+}
+
+@media screen and (max-width: 55rem) {
+    section {
+        width: 18rem;
+    }
+}
+
+@media screen and (max-width: 45rem) {
+    section {
+        width: 15rem;
+    }
+
+    span {
+        font-size: 2rem;
+    }
+}

@@ -1,8 +1,13 @@
+html {
+    font-size: 62.5%;
+    font-family: 'Prompt' sans-serif;
+}
+
 .button1 {
     display: block;
-    width: 250px;
-    height: 50px;
-    line-height: 50px;
+    width: 25rem;
+    height: 5rem;
+    line-height: 5rem;
     font-weight: bold;
     text-decoration: none;
     background: #333;
@@ -16,8 +21,8 @@
 }
 
 .icon {
-    width: 50px;
-    height: 50px;
+    width: 5rem;
+    height: 5rem;
     border: 3px solid transparent;
     position: absolute;
     transform: rotate(45deg);
@@ -28,7 +33,7 @@
 }
 
 .icon svg {
-    width: 30px;
+    width: 3rem;
     position: absolute;
     top: calc(50% - 15px);
     left: calc(50% - 15px);
@@ -38,8 +43,8 @@
 }
 
 .button1:hover {
-    width: 200px;
-    border: 3px solid #f000cc;
+    width: 20rem;
+    border: 0.3rem solid #f000cc;
     background: transparent;
     color: #f000cc;
 }

@@ -206,6 +206,15 @@ body {
     justify-content: center;
 }
 
+.artikel--saber-info-xl {
+    font-family: 'Prompt', sans-serif;
+    font-weight: bolder;
+    font-size: 2.2rem;
+    display: flex;
+    justify-content: center;
+}
+
+
 .review {
     display: flex;
     justify-content: center;
@@ -223,14 +232,6 @@ body {
     object-fit: contain;
     width: 100%;
     height: 75%;
-}
-
-.lightsaber-groen {
-    object-fit: contain;
-    width: 100%;
-    height: 55%;
-    padding-bottom: 6rem;
-    padding-top: 3rem;
 }
 
 .lightsaber--press {
@@ -425,6 +426,13 @@ body {
     color: white;
 }
 
+.yoda--review-palps {
+    display: flex;
+    justify-content: center;
+    font-size: 2.3rem;
+    color: white;
+}
+
 .card--bottem-2 {
     grid-row: 1/12;
     grid-column: 7/12;
@@ -513,8 +521,8 @@ a {
         font-size: 2rem;
     }
 
-    .lightsaber-groen {
-        padding-bottom: 4rem;
+    .artikel--saber-info-xl {
+        font-size: 1.7rem;
     }
 
     .artikel--overtuiging-titel {
@@ -534,6 +542,14 @@ a {
 }
 
 @media screen and (max-width: 76.5rem) {
+    .titel {
+        font-size: 3rem;
+    }
+
+    .titel--onder {
+        font-size: 3rem;
+    }
+
     .tekst--card2 {
         font-size: 2rem;
     }
@@ -546,8 +562,8 @@ a {
         font-size: 1.5rem;
     }
 
-    .lightsaber-groen {
-        padding-bottom: 3rem;
+    .artikel--saber-info-xl {
+        font-size: 1.2rem;
     }
 
     .card--circle1 {
@@ -610,13 +626,6 @@ a {
         height: 15rem;
     }
 
-    .yoda--review {
-        display: flex;
-        justify-content: center;
-        font-size: 1.8rem;
-        color: white;
-    }
-
     .yoda--titel {
         font-size: 3.2rem;
         display: flex;
@@ -632,9 +641,41 @@ a {
         margin-top: 2rem;
     }
 
+    .yoda--review {
+        display: flex;
+        justify-content: center;
+        font-size: 1.3rem;
+        color: white;
+    }
+
+    .yoda--review-palps {
+        display: flex;
+        justify-content: center;
+        font-size: 1rem;
+        color: white;
+    }
+
+    .reviews {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 3rem;
+        font-size: 4rem;
+        font-family: 'Prompt', sans-serif;
+    }
+
+
 }
 
 @media screen and (max-width: 66.5rem) {
+
+    .titel {
+        font-size: 3rem;
+    }
+
+    .titel--onder {
+        font-size: 3rem;
+    }
+
     .tekst--card2 {
         font-size: 2rem;
     }
@@ -674,9 +715,26 @@ a {
         justify-content: center;
         margin-top: 2rem;
     }
+
+    .reviews {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 3rem;
+        font-size: 3.7rem;
+        font-family: 'Prompt', sans-serif;
+    }
 }
 
 @media screen and (max-width: 60rem) {
+
+    .titel {
+        font-size: 3rem;
+    }
+
+    .titel--onder {
+        font-size: 3rem;
+    }
+
 
     .h1--card2 {
         font-size: 2.5rem;
@@ -691,7 +749,7 @@ a {
     }
 
     .artikel--overtuiging-tekst {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .card--mid-page {
@@ -741,12 +799,19 @@ a {
     .yoda--review {
         display: flex;
         justify-content: center;
-        font-size: 1.3rem;
+        font-size: 1rem;
+        color: white;
+    }
+
+    .yoda--review-palps {
+        display: flex;
+        justify-content: center;
+        font-size: 0.7rem;
         color: white;
     }
 
     .yoda--titel {
-        font-size: 2rem;
+        font-size: 1.5rem;
         display: flex;
         justify-content: center;
         color: white;
@@ -765,22 +830,54 @@ a {
 
 
 @media screen and (max-width: 55rem) {
+
+    .lightsaber-groen {
+        height: 40%;
+        margin-top: 5rem;
+        margin-bottom: 4rem;
+    }
+
+    .titel {
+        font-size: 2rem;
+    }
+
+    .titel--onder {
+        font-size: 2rem;
+    }
+
     .tekst--card2 {
         font-size: 1.7rem;
     }
 
+    .artikel--overtuiging-tekst {
+        font-size: 1.6rem;
+    }
+
+    .artikel--overtuiging-titel {
+        font-size: 1.8rem;
+    }
+
+
     .h1--card2 {
         font-size: 1.8rem;
+    }
+
+    .yoda--review {
+        display: flex;
+        justify-content: center;
+        font-size: 1rem;
+        color: white;
+    }
+
+    .saber {
+        width: 185%;
+        height: 125%;
     }
 }
 
 @media screen and (max-width: 45rem) {
-    body {
-        background-color: red;
-    }
-
     .tekst--card2 {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 
     .h1--card2 {
