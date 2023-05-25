@@ -172,23 +172,27 @@ body {
 .card3 {
     grid-row: 1/12;
     grid-column: 2/5;
+    transition: 0.5s transform;
 }
 
 
 .card4 {
     grid-row: 1/12;
     grid-column: 6/9;
+    transition: 0.5s transform;
 }
 
 .card5 {
     grid-row: 1/12;
     grid-column: 10/13;
+    transition: 0.5s transform;
 }
 
 
 .card6 {
     grid-row: 1/12;
     grid-column: 14/17;
+    transition: 0.5s transform;
 }
 
 .card3:hover,
