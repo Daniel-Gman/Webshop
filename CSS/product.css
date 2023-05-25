@@ -13,6 +13,11 @@ body {
     scroll-behavior: smooth;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .grid {
     height: 100vh;
     display: grid;
@@ -43,6 +48,7 @@ body {
 }
 
 .card--logo {
+    margin-top: 1rem;
     background-color: #a492b2;
     list-style: none;
     grid-row: 1/2;
@@ -58,7 +64,84 @@ body {
 }
 
 .head-tekst {
+    margin-top: 1rem;
     display: flex;
     justify-content: center;
     font-size: 3rem;
+}
+
+.card-1 {
+    grid-row: 3/11;
+    grid-column: 2/8;
+}
+
+.card-2 {
+    grid-row: 3/11;
+    grid-column: 8/14;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-3 {
+    grid-row: 11/16;
+    grid-column: 2/16;
+    background: red;
+}
+
+.saber--center {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+}
+
+.circle {
+    margin-top: 1rem;
+    list-style: none;
+    width: 5rem;
+    height: 5rem;
+    background-color: white;
+    border: 0.3rem solid #a492b2;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-position {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.size {
+    display: flex;
+    justify-content: center;
+    font-size: 1.8rem;
+}
+
+h2 {
+    display: flex;
+    font-size: 3rem;
+    justify-content: center;
+    color: #e6007e;
+}
+
+.lorem {
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.winkelwagen {
+    grid-row: 3/7;
+    grid-column: 13/15;
+    background-color: red;
+    border-radius: 50%;
 }
