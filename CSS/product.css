@@ -18,6 +18,42 @@ a {
     color: black;
 }
 
+.header {
+    background-color: #a492b2;
+    height: 4.5rem;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header-logo,
+.logo--git {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.Product--pagina-1 {
+    color: white;
+    text-decoration: none;
+}
+
+.right--text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin-right: 2rem;
+}
+
+.logo {
+    height: 4rem;
+    margin-left: 2rem;
+}
+
 .grid {
     height: 100vh;
     display: grid;
@@ -87,7 +123,6 @@ a {
 .card-3 {
     grid-row: 11/16;
     grid-column: 2/16;
-    background: red;
 }
 
 .saber--center {
@@ -107,12 +142,18 @@ h1 {
     list-style: none;
     width: 5rem;
     height: 5rem;
-    background-color: white;
+    background: #ddc4f0b6;
     border: 0.3rem solid #a492b2;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 0.5s transform;
+}
+
+.circle:hover {
+    transform: scale(1.3);
+
 }
 
 .circle-position {
@@ -129,7 +170,7 @@ h1 {
 
 h2 {
     display: flex;
-    font-size: 3rem;
+    font-size: 4rem;
     justify-content: center;
     color: #e6007e;
 }
@@ -140,8 +181,153 @@ h2 {
 }
 
 .winkelwagen {
-    grid-row: 3/7;
-    grid-column: 13/15;
-    background-color: red;
-    border-radius: 50%;
+    grid-row: 3/6;
+    grid-column: 14/15;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart {
+    font-size: 8rem;
+    transition: 1s transform;
+}
+
+.cart:hover {
+    transform: scale(1.2);
+}
+
+.button {
+    width: 25rem;
+    height: 6rem;
+    background: #aa3b79;
+    color: white;
+    transition: 86ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.button:hover {
+    background: #8F3266;
+}
+
+.button--position {
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+
+@media screen and (max-width: 90rem) {
+
+    .lorem {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 80rem) {
+
+    .button {
+        width: 22rem;
+        height: 5rem;
+    }
+}
+
+@media screen and (max-width: 70rem) {
+
+    .lorem {
+        font-size: 1.5rem;
+    }
+
+    .button {
+        height: 3.8rem;
+    }
+
+    h1 {
+        font-size: 2.3rem;
+    }
+}
+
+@media screen and (max-width: 60rem) {
+
+    h1 {
+        font-size: 2.3rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    .lorem {
+        font-size: 1.3rem;
+    }
+
+    .button {
+        height: 2.8rem;
+    }
+
+}
+
+@media screen and (max-width: 50rem) {
+
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .card-1 {
+        grid-row: 4/11;
+        grid-column: 2/16;
+    }
+
+    .card-2 {
+        grid-row: 14/16;
+        grid-column: 6/12;
+        display: flex;
+    }
+
+    .circle {
+        display: none;
+    }
+
+    .lorem {
+        font-size: 1rem;
+    }
+
+    .winkelwagen {
+        grid-row: 5/6;
+        grid-column: 14/15;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cart {
+        font-size: 2rem;
+    }
+
+    .menu {
+        margin-top: 1rem;
+        background: #ddc4f0b6;
+        grid-row: 14/16;
+        grid-column: 11/12;
+        border-radius: 50%;
+        list-style: none;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 0.2rem solid #a492b2;
+        transition: 1.3s transform;
+    }
+
+    .menu:hover {
+        transform: scale(1.2);
+    }
+
 }
