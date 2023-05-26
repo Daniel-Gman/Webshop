@@ -14,3 +14,12 @@
 
 - Wireframes: https://miro.com/app/board/uXjVMRFp2ko=/
 - Trello: https://trello.com/b/wGDz8ajn/daniel-bo4
+
+## Huidig schema:
+
+- week 1: top landing page
+- week 2: mid landing page
+- week 3 saber animatie, reviews
+- week 4: responsiveness fix
+- week 5: single product page gemaakt + af
+- week 6:
