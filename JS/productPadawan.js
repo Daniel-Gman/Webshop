@@ -6,7 +6,8 @@ const price = document.getElementById('price');
 const button = document.getElementById('button')
 const menu = document.getElementById('menu');
 const letter = document.getElementById('letter');
-const img = document.getElementById('img')
+const img = document.getElementById('img');
+
 let counter = 1;
 let buttoncount = true;
 
@@ -45,15 +46,13 @@ circle3.addEventListener('click', function () {
 });
 
 button.addEventListener('click', function () {
-    alert("Item toegevoegd aan winkelwagen")
-    button.textContent = 'Item toegevoegd!'
-    buttoncount = false;
-    button.addEventListener('click', function () {
-        if (buttoncount === false) {
-            alert("Item is eerder toegevoegd, mocht dit een ongeluk zijn, check dan de winkelwagen!")
-        }
-    });
-})
+    var popup = document.getElementById("popup");
+    popup.classList.toggle("fadeIn");
+    setTimeout(function () {
+        popup.classList.toggle("fadeOut")
+    }, 2000);
+}
+);
 
 function changeProduct(counter) {
     if (counter === 1) {

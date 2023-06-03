@@ -160,6 +160,7 @@ h1 {
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
+    z-index: 2;
 }
 
 .size {
@@ -216,6 +217,45 @@ h2 {
 .button--position {
     padding-left: 1rem;
     padding-top: 1rem;
+}
+
+.popup {
+    background: rgb(243, 243, 243);
+    grid-row: 3/11;
+    grid-column: 2/8;
+    list-style: none;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0.5rem 0.5rem 0 rgba(195, 195, 195, 0.84);
+    opacity: 0;
+    z-index: 5;
+}
+
+.noti {
+    color: #e6007e;
+    font-size: 5rem;
+}
+
+.fadeIn {
+    animation-name: added;
+    animation-duration: 3s;
+}
+
+@keyframes added {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+
 }
 
 
@@ -334,6 +374,8 @@ h2 {
         width: 14rem;
         font-size: 1rem;
     }
+
+
 
 }
 

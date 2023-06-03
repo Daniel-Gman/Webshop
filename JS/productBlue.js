@@ -48,16 +48,13 @@ circle3.addEventListener('click', function () {
 });
 
 button.addEventListener('click', function () {
-    alert("Item toegevoegd aan winkelwagen")
-    button.textContent = 'Item toegevoegd!'
-    buttoncount = false;
-    button.addEventListener('click', function () {
-        if (buttoncount === false) {
-            alert("Item is eerder toegevoegd, mocht dit een ongeluk zijn, check dan de winkelwagen!")
-        }
-    });
-})
-
+    var popup = document.getElementById("popup");
+    popup.classList.toggle("fadeIn");
+    setTimeout(function () {
+        popup.classList.toggle("fadeOut")
+    }, 2000);
+}
+);
 
 function changeProduct(counter) {
     if (counter === 1) {
@@ -93,4 +90,3 @@ function changeProduct(counter) {
 }
 
 changeProduct(counter);
-
