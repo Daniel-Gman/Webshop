@@ -309,24 +309,6 @@ body {
     color: #f000cc;
 }
 
-.featurs-tekst {
-    display: flex;
-    justify-content: center;
-    font-size: 2.5rem;
-}
-
-.featurs-title {
-    display: flex;
-    justify-content: center;
-    font-size: 2.6rem;
-}
-
-.featurs-tekst-bonus {
-    display: flex;
-    justify-content: center;
-    font-size: 2.2rem;
-}
-
 .icons {
     object-fit: fill;
     background-repeat: no-repeat;
@@ -604,23 +586,6 @@ a {
         color: #f000cc;
     }
 
-    .featurs-tekst {
-        display: flex;
-        justify-content: center;
-        font-size: 1.5rem;
-    }
-
-    .featurs-title {
-        display: flex;
-        justify-content: center;
-        font-size: 1.5rem;
-    }
-
-    .featurs-tekst-bonus {
-        display: flex;
-        justify-content: center;
-        font-size: 1.4rem;
-    }
 
     .artikel--overtuiging-titel {
         font-size: 2rem;

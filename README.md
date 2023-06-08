@@ -22,7 +22,7 @@
 - week 3 saber animatie, reviews
 - week 4: responsiveness fix
 - week 5: single product page gemaakt + af
-- week 6:
+- week 6: winkelwagen start
 
 
 # License
