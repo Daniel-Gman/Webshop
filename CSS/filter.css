@@ -154,7 +154,10 @@ li {
     height: auto;
 }
 
-
+img {
+    display: flex;
+    align-items: center;
+}
 
 
 
