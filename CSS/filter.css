@@ -159,22 +159,28 @@ img {
     align-items: center;
 }
 
+footer {
+    background-color: #a492b2;
+    height: 8rem;
+}
 
+.footer {
+    padding-top: 2rem;
+    align-items: center;
+}
 
+.tag--footer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
 
-
-
-
-
-
-
-@media screen and (max-width: 90rem) {}
-
-@media screen and (max-width: 80rem) {}
-
-@media screen and (max-width: 70rem) {}
-
-@media screen and (max-width: 60rem) {}
+a {
+    text-decoration: none;
+    color: white;
+}
 
 @media screen and (max-width: 50rem) {
     .box-p {
