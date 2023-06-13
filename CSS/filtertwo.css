@@ -155,10 +155,22 @@ p {
     justify-content: center;
 }
 
-img {
+.img {
+
     object-fit: cover;
-    width: 100%;
+    width: 50%;
     height: auto;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+#img11 {
+    object-fit: contain;
+    width: 50%;
+    height: 14rem;
 }
 
 @media screen and (max-width: 85rem) {
