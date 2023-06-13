@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+li {
+    list-style: none;
+}
+
+
+.header {
+    background-color: #a492b2;
+    height: 5rem;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo,
+.logo--git {
+    padding-top: 0.2rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.right--text {
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 2rem;
+    margin-right: 2rem;
+}
+
+.left--text {
+    margin-right: 2rem;
+}
+
+.Product--pagina-1,
+.Product--pagina-2 {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    height: 4rem;
+    margin-left: 2rem;
+}
+
+.layout1 {
+    width: 100%;
+    height: 4rem;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    gap: 2rem;
+}
+
+.invis--card {
+    grid-row: 5/8;
+    grid-column: 2/7;
+}
+
+.klap-uit {
+    display: flex;
+    justify-content: center;
+}
+
+.indicator {
+    font-size: 3rem;
+}
+
+.grid {
+    width: 100%;
+    height: 80rem;
+    display: grid;
+    grid-template-columns: repeat(28, 1fr);
+    grid-template-rows: repeat(28, 1fr);
+    gap: 2rem;
+}
+
+.card {
+    list-style: none;
+    background: white;
+    border-radius: 1rem;
+    box-shadow: 0 0.8rem 0.8rem 0 #a492b2;
+    transition: 1.5s transform;
+}
+
+.card:hover {
+    transform: scale(1.2);
+}
+
+.card1,
+.card2,
+.card3,
+.card4 {
+    grid-row: 5/11;
+}
+
+.card5,
+.card6,
+.card7,
+.card8 {
+    grid-row: 12/18;
+}
+
+.card9,
+.card10,
+.card11,
+.card12 {
+    grid-row: 19/25;
+}
+
+.card1,
+.card5,
+.card9 {
+    grid-column: 2/7;
+}
+
+.card2,
+.card6,
+.card10 {
+    grid-column: 9/14;
+}
+
+.card3,
+.card7,
+.card11 {
+    grid-column: 16/21;
+}
+
+.card4,
+.card8,
+.card12 {
+    grid-column: 23/28;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 85rem) {
+    .indicator {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 40rem) {
+    .indicator {
+        font-size: 1rem;
+    }
+
+    select {
+        width: 8rem;
+    }
+}

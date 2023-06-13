@@ -4,16 +4,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/filtertwo.css">
+    <script src="/JS/filterTwo.js" defer></script>
+    <link rel="icon" type="image/png" href="/SRC/r2d2.webp" />
+    <title>Drop filter</title>
 </head>
 
 <body>
-    <label for="price-filter">Prijsindicatie:</label>
-    <select id="price-filter">
-        <option value="under-10">Onder 10 euro</option>
-        <option value="10-100">10-100 euro</option>
-        <option value="above-100">Boven 100 euro</option>
-    </select>
+    <header class="header">
+        <div class="header-logo">
+            <a class="logo--git" href="/index.html"> <img class="logo" src="/SRC/LogoShop2.png" alt=""></a>
+        </div>
+        <div class="right--text">
+            <a class="Product--pagina-1" href="/filterpage/filterOne.html">
+                <p class="left--text">Kijk rond</p>
+            </a>
+            <a class="Product--pagina-2" href="/winkelwagen/winkelwagen.html">
+                <p>Winkelmand</p>
+            </a>
+        </div>
+    </header>
+
+    <ul class="layout1">
+        <li class="invis--card">
+            <div class="klap-uit">
+                <label for="price-filter">
+                    <p class="indicator">
+                    <p class="indicator">Prijsindicatie:</p>
+                </label>
+                <select id="price-filter">
+                    <option id="prijs--laag" value="under-10">Onder 10 euro</option>
+                    <option id="prijs--mid" value="10-100">10-100 euro</option>
+                    <option id="prijs--hoog" value="above-100">Boven 100 euro</option>
+            </div>
+            </select>
+        </li>
+    </ul>
+
+    <ul class="grid">
+        <li id="card1" class="card card1">
+            <p id="price1">test</p><img id="img1" src="" alt="">
+        </li>
+        <li id="card2" class="card card2">
+            <p id="price2">test</p><img id="img2" src="" alt="">
+        </li>
+        <li id="card3" class="card card3">
+            <p id="price3">test</p><img id="img3" src="" alt="">
+        </li>
+        <li id="card4" class="card card4">
+            <p id="price4">test</p><img id="img4" src="" alt="">
+        </li>
+        <li id="card5" class="card card5">
+            <p id="price5">test</p><img id="img5" src="" alt="">
+        </li>
+        <li id="card6" class="card card6">
+            <p id="price6">test</p><img id="img6" src="" alt="">
+        </li>
+        <li id="card7" class="card card7">
+            <p id="price7">test</p><img id="img7" src="" alt="">
+        </li>
+        <li id="card8" class="card card8">
+            <p id="price8">test</p><img id="img8" src="" alt="">
+        </li>
+        <li id="card9" class="card card9">
+            <p id="price9">test</p><img id="img9" src="" alt="">
+        </li>
+        <li id="card10" class="card card10">
+            <p id="price10">test</p><img id="img10" src="" alt="">
+        </li>
+        <li id="card11" class="card card11">
+            <p id="price11">test</p><img id="img11" src="" alt="">
+        </li>
+        <li id="card12" class="card card12">
+            <p id="price12">test</p><img id="img12" src="" alt="">
+        </li>
+    </ul>
+
 </body>
 
 </html>
