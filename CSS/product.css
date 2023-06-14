@@ -420,6 +420,7 @@ a {
     }
 
     .card-2 {
+        margin-top: 2rem;
         grid-row: 10/11;
         grid-column: 8/14;
         display: flex;
@@ -435,7 +436,7 @@ a {
     }
 
     h1 {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     h2 {
