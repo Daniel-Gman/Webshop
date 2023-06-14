@@ -187,3 +187,78 @@ a {
         font-size: 2rem;
     }
 }
+
+@media screen and (max-width: 40rem) {
+
+    #img1 {
+        height: 16rem;
+        object-fit: fill;
+    }
+
+    #img4 {
+        height: 14rem;
+        object-fit: fill;
+    }
+
+    #img5 {
+        height: 13rem;
+        object-fit: fill;
+    }
+
+    #img6 {
+        height: 13rem;
+        object-fit: fill;
+    }
+
+    #img7 {
+        height: 16rem;
+        object-fit: fill;
+    }
+
+    .layout2 {
+        height: 175rem;
+        grid-template-columns: repeat(19, 1fr);
+        grid-template-rows: repeat(33, 1fr);
+    }
+
+    .card1 {
+        grid-row: 7/13;
+        grid-column: 3/10;
+    }
+
+    .card2 {
+        grid-row: 7/13;
+        grid-column: 11/18;
+    }
+
+    .card3 {
+        grid-row: 13/19;
+        grid-column: 3/10;
+    }
+
+    .card4 {
+        grid-row: 13/19;
+        grid-column: 11/18;
+    }
+
+    .card5 {
+        grid-row: 19/25;
+        grid-column: 3/10;
+    }
+
+    .card6 {
+        grid-row: 19/25;
+        grid-column: 11/18;
+    }
+
+    .card7 {
+        grid-row: 25/31;
+        grid-column: 3/10;
+    }
+
+    .card8 {
+        grid-row: 25/31;
+        grid-column: 11/18;
+    }
+
+}

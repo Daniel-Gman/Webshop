@@ -156,7 +156,6 @@ p {
 }
 
 .img {
-
     object-fit: cover;
     width: 50%;
     height: auto;
@@ -167,8 +166,9 @@ p {
     justify-content: center;
 }
 
+#img1,
 #img11 {
-    object-fit: contain;
+    object-fit: fill;
     width: 50%;
     height: 14rem;
 }
@@ -180,11 +180,86 @@ p {
 }
 
 @media screen and (max-width: 40rem) {
+
+    #img11 {
+        object-fit: fill;
+        height: 10rem;
+    }
+
     .indicator {
         font-size: 1rem;
     }
 
     select {
         width: 8rem;
+    }
+
+    .grid {
+        height: 150rem;
+        display: grid;
+        grid-template-columns: repeat(28, 1fr);
+        grid-template-rows: repeat(35, 1fr);
+        gap: 2rem;
+    }
+
+
+    .card1 {
+        grid-row: 4/9;
+        grid-column: 2/13;
+    }
+
+    .card2 {
+        grid-row: 4/9;
+        grid-column: 13/24;
+    }
+
+    .card3 {
+        grid-row: 9/14;
+        grid-column: 2/13;
+    }
+
+    .card4 {
+        grid-row: 9/14;
+        grid-column: 13/24;
+    }
+
+    .card5 {
+        grid-row: 14/19;
+        grid-column: 2/13;
+    }
+
+    .card6 {
+        grid-row: 14/19;
+        grid-column: 13/24;
+    }
+
+    .card7 {
+        grid-row: 19/24;
+        grid-column: 2/13;
+    }
+
+    .card8 {
+        grid-row: 19/24;
+        grid-column: 13/24;
+    }
+
+    .card9 {
+        grid-row: 24/29;
+        grid-column: 2/13;
+    }
+
+    .card10 {
+        grid-row: 24/29;
+        grid-column: 13/24;
+    }
+
+    .card11 {
+        grid-row: 29/34;
+        grid-column: 2/13;
+    }
+
+    .card12 {
+        grid-row: 29/34;
+        grid-column: 13/24;
     }
 }
