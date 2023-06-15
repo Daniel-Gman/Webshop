@@ -167,6 +167,10 @@ body {
     gap: 2rem;
 }
 
+.ster {
+    display: flex;
+    justify-content: center;
+}
 
 
 .card3 {
@@ -220,6 +224,11 @@ body {
 
 
 .review {
+    display: flex;
+    justify-content: center;
+}
+
+.ster {
     display: flex;
     justify-content: center;
 }
