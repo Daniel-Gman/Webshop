@@ -38,7 +38,7 @@ const img11 = document.getElementById("img11");
 const img12 = document.getElementById("img12");
 const PriceFilter = document.getElementById("price-filter")
 
-fetch("/Json/producten.json")
+fetch("producten.json")
     .then(function (response) { return response.json(); })
     .then(function (json) {
         price1.innerHTML = `${json[0].price}`;
@@ -111,7 +111,7 @@ PriceFilter.addEventListener('change', function () {
                 card12.style.display = ''
             });
     } else if (selectOption.id === 'prijs--mid') {
-        fetch("/Json/producten.json")
+        fetch("producten.json")
             .then(function (response) { return response.json(); })
             .then(function (json) {
                 price9.innerHTML = `${json[11].price}`;
@@ -121,7 +121,7 @@ PriceFilter.addEventListener('change', function () {
         card11.style.display = 'none'
         card12.style.display = 'none'
     } else if (selectOption.id === 'prijs--hoog') {
-        fetch("/Json/producten.json")
+        fetch("producten.json")
             .then(function (response) { return response.json(); })
             .then(function (json) {
                 price1.innerHTML = `${json[10].price}`;

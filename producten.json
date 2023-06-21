@@ -2,61 +2,61 @@
     {
         "name": "blueSaber",
         "price": 14.99,
-        "img": "/SRC/blueLightsaber.webp"
+        "img": "SRC/blueLightsaber.webp"
     },
     {
         "name": "redSaber",
         "price": 24.99,
-        "img": "/SRC/redLightsaberjpg.webp"
+        "img": "SRC/redLightsaberjpg.webp"
     },
     {
         "name": "purpleSaber",
         "price": 19.99,
-        "img": "/SRC/purpleLightsaber.webp"
+        "img": "SRC/purpleLightsaber.webp"
     },
     {
         "name": "padawanSaber",
         "price": 19.99,
-        "img": "/SRC/blueLightsaber.webp"
+        "img": "SRC/blueLightsaber.webp"
     },
     {
         "name": "X-wing",
         "price": 9.99,
-        "img": "/SRC/xwing.webp"
+        "img": "SRC/xwing.webp"
     },
     {
         "name": "gunship",
         "price": 14.99,
-        "img": "/SRC/gunship.webp"
+        "img": "SRC/gunship.webp"
     },
     {
         "name": "falcon",
         "price": 19.99,
-        "img": "/SRC/falcon.webp"
+        "img": "SRC/falcon.webp"
     },
     {
         "name": "tank",
         "price": 9.99,
-        "img": "/SRC/cloneTurboTank.webp"
+        "img": "SRC/cloneTurboTank.webp"
     },
     {
         "name": "r2d2",
         "price": 100.00,
-        "img": "/SRC/r2d2.webp"
+        "img": "SRC/r2d2.webp"
     },
     {
         "name": "C3PO",
         "price": 49.99,
-        "img": "/SRC/c3po.webp"
+        "img": "SRC/c3po.webp"
     },
     {
         "name": "BB8",
         "price": 29.99,
-        "img": "/SRC/BB8.webp"
+        "img": "SRC/BB8.webp"
     },
     {
         "name": "Jabba",
         "price": 9.99,
-        "img": "/SRC/jabba.webp"
+        "img": "SRC/jabba.webp"
     }
 ]

@@ -49,14 +49,14 @@ function OriginalCode() {
     card7.innerHTML = 'Padawan Lightsaber';
     card8.innerHTML = 'Clone TurboTank';
 
-    img1.src = '../SRC/blueLightsaber.webp';
-    img2.src = '../SRC/falcon.webp';
-    img3.src = '../SRC/gunship.webp';
-    img4.src = '../SRC/redLightsaberjpg.webp';
-    img5.src = '../SRC/xwing.webp'
-    img6.src = '../SRC/purpleLightsaber.webp';
-    img7.src = '../SRC/blueLightsaber.webp';
-    img8.src = '../SRC/cloneTurboTank.webp';
+    img1.src = 'SRC/blueLightsaber.webp';
+    img2.src = 'SRC/falcon.webp';
+    img3.src = 'SRC/gunship.webp';
+    img4.src = 'SRC/redLightsaberjpg.webp';
+    img5.src = 'SRC/xwing.webp'
+    img6.src = 'SRC/purpleLightsaber.webp';
+    img7.src = 'SRC/blueLightsaber.webp';
+    img8.src = 'SRC/cloneTurboTank.webp';
 
     star1.innerHTML = '&#9733;'; star1.style.color = 'purple'
     star2.innerHTML = '&#9733;' + '&#9733;' + '&#9733;' + '&#9733;'; star2.style.color = 'purple'
@@ -83,8 +83,8 @@ function display_shit() {
         li8.style.display = 'none';
         card2.innerHTML = 'Padawan Lightsaber'
         card3.innerHTML = 'Paarse Lightsaber'
-        img2.src = '../SRC/blueLightsaber.webp'
-        img3.src = '../SRC/purpleLightsaber.webp'
+        img2.src = 'SRC/blueLightsaber.webp'
+        img3.src = 'SRC/purpleLightsaber.webp'
         star3.innerHTML = '&#9733;' + '&#9733;' + '&#9733;' + '&#9733;'
         star3.style.color = 'purple'
     } else {
@@ -105,8 +105,8 @@ function display_shit2() {
         li8.style.display = 'none';
         card1.innerHTML = 'X-Wing'
         card4.innerHTML = 'Clone TurboTank'
-        img1.src = '../SRC/xwing.webp'
-        img4.src = '../SRC/cloneTurboTank.webp'
+        img1.src = 'SRC/xwing.webp'
+        img4.src = 'SRC/cloneTurboTank.webp'
         star1.innerHTML = '&#9733;' + '&#9733;'
         star4.innerHTML = '&#9733;'
         star3.style.color = 'purple'
@@ -131,14 +131,14 @@ function display_shit3() {
         card7.innerHTML = 'Clone Gunship';
         card8.innerHTML = 'Clone TurboTank';
 
-        img1.src = '../SRC/blueLightsaber.webp';
-        img2.src = '../SRC/redLightsaberjpg.webp';
-        img3.src = '../SRC/purpleLightsaber.webp';
-        img4.src = '../SRC/falcon.webp';
-        img5.src = '../SRC/xwing.webp'
-        img6.src = '../SRC/blueLightsaber.webp';
-        img7.src = '../SRC/gunship.webp';
-        img8.src = '../SRC/cloneTurboTank.webp';
+        img1.src = 'SRC/blueLightsaber.webp';
+        img2.src = 'SRC/redLightsaberjpg.webp';
+        img3.src = 'SRC/purpleLightsaber.webp';
+        img4.src = 'SRC/falcon.webp';
+        img5.src = 'SRC/xwing.webp'
+        img6.src = 'SRC/blueLightsaber.webp';
+        img7.src = 'SRC/gunship.webp';
+        img8.src = 'SRC/cloneTurboTank.webp';
 
         star1.innerHTML = '&#9733;' + '&#9733;' + '&#9733;' + '&#9733;' + '&#9733'; star1.style.color = 'purple'
         star2.innerHTML = '&#9733;' + '&#9733;' + '&#9733;' + '&#9733;'; star2.style.color = 'purple'
