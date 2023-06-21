@@ -23,6 +23,7 @@
 - week 4: responsiveness fix
 - week 5: single product page gemaakt + af
 - week 6: winkelwagen start
+- week 7: Klaar + inleveren
 
 
 # License
