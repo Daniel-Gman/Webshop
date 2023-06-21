@@ -776,8 +776,8 @@ a {
 
     .yoda {
         border-radius: 50%;
-        width: 10rem;
-        height: 10rem;
+        width: 6rem;
+        height: 6rem;
     }
 
     .yoda--review {
@@ -793,7 +793,7 @@ a {
     }
 
     .yoda--stars {
-        display: none;
+        font-size: 1rem;
     }
 
     .card--bottem-1 {
