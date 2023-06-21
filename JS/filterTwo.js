@@ -70,7 +70,7 @@ fetch("producten.json")
 PriceFilter.addEventListener('change', function () {
     const selectOption = PriceFilter.options[PriceFilter.selectedIndex];
     if (selectOption.id === 'prijs--laag') {
-        fetch("/Json/producten.json")
+        fetch("producten.json")
             .then(function (response) { return response.json(); })
             .then(function (json) {
                 price1.innerHTML = `${json[0].price}`;
